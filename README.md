@@ -33,11 +33,12 @@ _*result after shifting class thresholds_
 ##### Contents of the repository:
 - **models** folder: contains pickle file with the clustering model; all classification models are available at [huggingface];
 - **demo_review_vis** folder: contains examples of aspect classification of reviews;
+- **aspect_words_treemap.html**: a treemap visualisation of common words by aspect;
 - **requirements.txt**: frozen modules requirements needed for the code to function correctly;
 ###### Notebooks
-- **Common Words + Clustering.ipynb**: text processing functions, aspect clustering (KMeans), identification of common words per aspect and their frequencies
-- **Manual_Retraining_Aspect_Classifier.ipynb**: final retraining of aspect classifier
-- **Classification Repurchase-GPU.ipynb**: final retraining of repurchase classifier
+- **Common Words + Clustering.ipynb**: text processing functions, aspect clustering (KMeans), identification of common words per aspect and their frequencies;
+- **Manual_Retraining_Aspect_Classifier.ipynb**: final retraining of aspect classifier;
+- **Classification Repurchase-GPU.ipynb**: final retraining of repurchase classifier;
 - **Sentiment_Classifier_Retraining_GPU.ipynb**: final retraining of polarity classifier
 
 
